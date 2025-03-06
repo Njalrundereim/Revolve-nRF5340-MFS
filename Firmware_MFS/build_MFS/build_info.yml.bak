@@ -1,0 +1,6 @@
+west:
+  command: C:\ncs\toolchains\b620d30767\opt\bin\Scripts\west build --build-dir c:/nRF5340_MFS/Firmware_MFS/build_MFS
+    c:/nRF5340_MFS/Firmware_MFS --pristine --board mfs/nrf5340/cpuapp/ns -- -DNCS_TOOLCHAIN_VERSION=NONE
+    -DBOARD_ROOT=c:/nrf5340_mfs;c:/nrf5340_mfs/firmware_mfs
+  topdir: c:\ncs\v2.9.0
+  version: 1.2.0

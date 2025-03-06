@@ -1,0 +1,15 @@
+/*
+ * Copyright (c) 2024 Nordic Semiconductor ASA
+ *
+ * SPDX-License-Identifier: LicenseRef-Nordic-5-Clause
+ */
+
+ / {
+    leds {
+        compatible = "gpio-leds";
+        led1: led_1 {
+            gpios = <&gpio0 26 GPIO_ACTIVE_LOW>;  // Check if this matches your board design
+            label = "LED1";
+        };
+    };
+};
