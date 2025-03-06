@@ -1,0 +1,29 @@
+/*
+ * Copyright (c) 2020 Nordic Semiconductor ASA
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+/dts-v1/;
+#include <nordic/nrf5340_cpuappns_qkaa.dtsi>
+#include "nrf5340_cpuapp_common.dtsi"
+
+/ {
+	model = "Nordic MFS NRF5340 Application";
+	compatible = "nordic,nrf5340-dk-nrf5340-cpuapp";
+
+	chosen {
+		zephyr,flash = &flash0;
+	};
+};
+/delete-node/ &sram0_s;
+/delete-node/ &sram0_image;
+/delete-node/ &sram0_ns_app;
+/delete-node/ &sram0_ns;
+/delete-node/ &slot1_ns_partition;
+/delete-node/ &slot1_partition;
+/delete-node/ &slot0_ns_partition;
+/delete-node/ &slot0_partition;
+/delete-node/ &boot_partition;
+/delete-node/ &tfm_ps_partition;
+/delete-node/ &tfm_its_partition;
