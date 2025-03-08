@@ -1,0 +1,2 @@
+# Load board Kconfig descriptions.
+osource "C:/nRF5340_MFS/boards/MFS/Kconfig.mfs"

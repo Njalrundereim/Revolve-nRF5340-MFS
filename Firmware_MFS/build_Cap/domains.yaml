@@ -1,0 +1,10 @@
+default: Firmware_MFS
+build_dir: C:/nRF5340_MFS/Firmware_MFS/build_Cap
+domains:
+  - name: Firmware_MFS
+    build_dir: C:/nRF5340_MFS/Firmware_MFS/build_Cap/Firmware_MFS
+  - name: ipc_radio
+    build_dir: C:/nRF5340_MFS/Firmware_MFS/build_Cap/ipc_radio
+flash_order:
+  - ipc_radio
+  - Firmware_MFS

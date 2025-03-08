@@ -1,0 +1,3 @@
+osource "C:/nRF5340_MFS/boards/shields/*/Kconfig.shield"
+osource "C:/nRF5340_MFS/Firmware_MFS/boards/shields/*/Kconfig.shield"
+osource "C:/ncs/v2.9.0/nrf/boards/shields/*/Kconfig.shield"

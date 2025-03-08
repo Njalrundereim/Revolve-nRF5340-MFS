@@ -1,19 +1,6 @@
-cmake:
-  application:
-    source-dir: C:/ncs/v2.9.0/zephyr/share/sysbuild
-  board:
-    name: mfs
-    qualifiers: nrf5340/cpuapp/ns
-    revision: 
-  kconfig:
-    files:
-     - C:/nRF5340_MFS/Firmware_MFS/build_MFS/_sysbuild/empty.conf
-     - C:/nRF5340_MFS/Firmware_MFS/build_MFS/_sysbuild/empty.conf
-    user-files:
-     - C:/nRF5340_MFS/Firmware_MFS/build_MFS/_sysbuild/empty.conf
-  sysbuild: true
-version: 0.1.0
 west:
-  command: C:\ncs\toolchains\b620d30767\opt\bin\Scripts\west build --build-dir c:/nRF5340_MFS/Firmware_MFS/build_MFS c:/nRF5340_MFS/Firmware_MFS --pristine --board mfs/nrf5340/cpuapp/ns -- -DNCS_TOOLCHAIN_VERSION=NONE -DBOARD_ROOT=c:/nrf5340_mfs;c:/nrf5340_mfs/firmware_mfs
+  command: C:\ncs\toolchains\b620d30767\opt\bin\Scripts\west build --build-dir c:/nRF5340_MFS/Firmware_MFS/build_MFS
+    c:/nRF5340_MFS/Firmware_MFS --pristine --board mfs/nrf5340/cpuapp/ns -- -DNCS_TOOLCHAIN_VERSION=NONE
+    -DBOARD_ROOT=c:\nRF5340_MFS;c:\nRF5340_MFS\Firmware_MFS
   topdir: c:\ncs\v2.9.0
   version: 1.2.0

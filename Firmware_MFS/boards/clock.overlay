@@ -1,0 +1,6 @@
+/ {   
+    hfxo { 
+        load-capacitors = "internal"; 
+    load-capacitance-femtofarad = <16000>; 
+    };
+};

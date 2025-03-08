@@ -1,0 +1,23 @@
+{
+  "toolchainPath": "c:\\ncs\\toolchains\\b620d30767",
+  "sdkPath": "c:\\ncs\\v2.9.0",
+  "board": "mfs/nrf5340/cpuapp/ns",
+  "boardDirs": [
+    "c:\\nRF5340_MFS\\boards\\MFS"
+  ],
+  "boardRevision": "",
+  "boardDir": "c:\\nRF5340_MFS\\boards\\MFS",
+  "shouldBuild": true,
+  "optimizations": "none",
+  "cmakeArgs": [],
+  "confFiles": [],
+  "buildDirectory": "MFS_Clock",
+  "kconfigFragments": [],
+  "snippets": [],
+  "dtcOverlays": [
+    "boards/clock.overlay"
+  ],
+  "extraDtcOverlays": [],
+  "boardRoot": "c:\\nRF5340_MFS",
+  "sysbuild": true
+}

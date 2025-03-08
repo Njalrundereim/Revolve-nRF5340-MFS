@@ -27,3 +27,23 @@
 /delete-node/ &boot_partition;
 /delete-node/ &tfm_ps_partition;
 /delete-node/ &tfm_its_partition;
+
+&clock {
+	status = "okay";
+};
+
+&oscillators {
+	status = "okay";
+};
+
+&regulators {
+	status = "disabled";
+};
+
+&reset {
+	status = "disabled";
+};
+
+&power {
+	status = "disabled";
+};

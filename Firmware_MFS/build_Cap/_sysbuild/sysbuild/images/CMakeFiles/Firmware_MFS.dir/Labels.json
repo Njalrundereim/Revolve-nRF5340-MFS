@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/nRF5340_MFS/Firmware_MFS/build_Cap/_sysbuild/sysbuild/images/CMakeFiles/Firmware_MFS"
+		},
+		{
+			"file" : "C:/nRF5340_MFS/Firmware_MFS/build_Cap/_sysbuild/sysbuild/images/CMakeFiles/Firmware_MFS.rule"
+		},
+		{
+			"file" : "C:/nRF5340_MFS/Firmware_MFS/build_Cap/_sysbuild/sysbuild/images/CMakeFiles/Firmware_MFS-complete.rule"
+		},
+		{
+			"file" : "C:/nRF5340_MFS/Firmware_MFS/build_Cap/_sysbuild/sysbuild/images/Firmware_MFS-prefix/src/Firmware_MFS-stamp/Firmware_MFS-build.rule"
+		},
+		{
+			"file" : "C:/nRF5340_MFS/Firmware_MFS/build_Cap/_sysbuild/sysbuild/images/Firmware_MFS-prefix/src/Firmware_MFS-stamp/Firmware_MFS-configure.rule"
+		},
+		{
+			"file" : "C:/nRF5340_MFS/Firmware_MFS/build_Cap/_sysbuild/sysbuild/images/Firmware_MFS-prefix/src/Firmware_MFS-stamp/Firmware_MFS-download.rule"
+		},
+		{
+			"file" : "C:/nRF5340_MFS/Firmware_MFS/build_Cap/_sysbuild/sysbuild/images/Firmware_MFS-prefix/src/Firmware_MFS-stamp/Firmware_MFS-install.rule"
+		},
+		{
+			"file" : "C:/nRF5340_MFS/Firmware_MFS/build_Cap/_sysbuild/sysbuild/images/Firmware_MFS-prefix/src/Firmware_MFS-stamp/Firmware_MFS-mkdir.rule"
+		},
+		{
+			"file" : "C:/nRF5340_MFS/Firmware_MFS/build_Cap/_sysbuild/sysbuild/images/Firmware_MFS-prefix/src/Firmware_MFS-stamp/Firmware_MFS-patch.rule"
+		},
+		{
+			"file" : "C:/nRF5340_MFS/Firmware_MFS/build_Cap/_sysbuild/sysbuild/images/Firmware_MFS-prefix/src/Firmware_MFS-stamp/Firmware_MFS-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Firmware_MFS"
+		],
+		"name" : "Firmware_MFS"
+	}
+}
